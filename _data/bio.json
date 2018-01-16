@@ -88,18 +88,18 @@
       "name": "Soldering",
       "level": "",
       "keywords": [
-        "Surface ",
-        "Autodesk Inventor",
-        "Viewmate"
+        "Surface Mount",
+        "QFN Packages",
+        "BGA Packages"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Hawaii at Manoa",
+      "area": "Computer Engineering (expected Spring 2019)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2015-09-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
@@ -108,12 +108,12 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Spectrum Photonics, Inc.",
+      "position": "Engineering Intern",
       "website": "",
       "startDate": "2015-08-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Firmware development and PCB design intern",
       "highlights": [
         "Maintain, update, and oversee official college newspaper website",
         "Drive, design and build student-community projects for UH Manoa"
