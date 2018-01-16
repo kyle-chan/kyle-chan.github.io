@@ -18,31 +18,39 @@
       {
         "network": "github",
         "username": "kyle-chan",
-        "url": "http://github.com/changeme"
+        "url": "https://github.com/kyle-chan"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "kyle-chan",
+        "url": "https://www.linkedin.com/in/kyle-chan/"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Embedded Systems",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "ARM Core",
+        "STM32",
+        "dsPIC"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Vision Processing",
       "keywords": [
+        "OpenCV",
+        "Image Processing",
+        "Thresholding"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "PCB Design",
       "keywords": [
+        "EAGLE",
+        "Schematic Design",
+        "Board Layout",
+        "Circuit Analysis"
       ]
     }
   ],
@@ -53,21 +61,36 @@
       "keywords": [
         "C",
         "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Python",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Design Software",
+      "level": "",
+      "keywords": [
+        "EAGLE",
+        "Autodesk Inventor",
+        "Viewmate"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
+        "Windows",
+        "Linux",
         "Git/GitHub",
         "g++",
-        "TI LaunchPad"
+      ]
+    },
+    {
+      "name": "Soldering",
+      "level": "",
+      "keywords": [
+        "Surface ",
+        "Autodesk Inventor",
+        "Viewmate"
       ]
     }
   ],
