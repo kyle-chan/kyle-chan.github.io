@@ -120,19 +120,31 @@
       ]
     }
   ],
-  "school involvement": [
+   "volunteer": [
     {
-      "organization": "",
+      "organization": "Micromouse",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "position": "Software Developer",
+      "startDate": "2017-08-01",
+      "endDate": "2017-12-01",
+      "summary": "Developer for firmare & algorithms of an autonomous robot",
+      "highlights": [
+        "Developed firmware in C for a STM32 microprocessor to drive DC motors with a closed-loop control system",
+        "Desiged and implemented flood-fill and tracking algorithms to solve a maze"
+      ]
+    },
+    {
+      "organization": "Smart Campus Energy Lab",
+      "website": "http://www.ambient.uni-luebeck.de/research_dynamix.html",
+      "position": "Software Developer",
+      "startDate": "2017-01-01",
+      "endDate": "2017-05-01",
       "summary": "",
       "highlights": [
-        "Pledge, HKN Delta Omega, 2017-Present",
-        "Member, IEEE Student Branch, 2015-Present"
+        "Designed and developed low-cost, accurate, and reliable environmental sensor modules",
+        "Developed firmware in Arduino for an ATmega328 microcontroller to retrieve sensor data"
       ]
-    }
+    },
   ],
   "awards": [
     {
