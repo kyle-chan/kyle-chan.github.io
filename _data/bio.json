@@ -115,8 +115,12 @@
       "endDate": "Present",
       "summary": "Firmware development and PCB design intern",
       "highlights": [
-        "Develop firmware for embedded systems",
-        "Design PCBs for company hyperspectral imaging systems"
+        "Developing firmware in C for polloing sensor data using STM32 microcontrollers",
+        "Created data filtering and temperature control algorithms in C for dsPIC microcontrollers",
+        "Writing power logging and data conversion scripts in Python for testing sensors",
+        "Designing schematics and baord layouts for hyperspectral imaging systems",
+        "Populating PCBs using soldering irons and reflow station",
+        "Fabricating cables for subsystem interconnects and testing equipment"
       ]
     }
   ],
@@ -124,18 +128,19 @@
     {
       "organization": "Micromouse",
       "website": "",
-      "position": "Software Developer",
+      "position": "Team Lead",
       "startDate": "2017-08-01",
       "endDate": "2017-12-01",
       "summary": "Developer for firmare & algorithms of an autonomous robot",
       "highlights": [
-        "Developed firmware in C for a STM32 microprocessor to drive DC motors with a closed-loop control system",
-        "Desiged and implemented flood-fill and tracking algorithms to solve a maze"
+        "Used AutoDesk Inventor to model assembly for bracket design",
+        "Designed 2 layer PCB with surface mounted components",
+        "Developed firmware in C for a STM32 microprocessor to drive DC motors with a closed-loop control system"
       ]
     },
     {
       "organization": "Smart Campus Energy Lab",
-      "website": "http://www.ambient.uni-luebeck.de/research_dynamix.html",
+      "website": "http://scel-hawaii.org/",
       "position": "Software Developer",
       "startDate": "2017-01-01",
       "endDate": "2017-05-01",
