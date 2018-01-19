@@ -1,61 +1,30 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/micromouse_front_view.jpg
+title: Micromouse
+permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2017-12-09
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Embedded Systems
+  - C
+  - PCB Design
+  - Mechanical Design
+summary: My team built, designed, and programmed an autonomous robotic mouse that won first place in the 2017 UH Micromouse competition.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/micromouse_angled_view.PNG">
+  <img class="ui image" src="../images/micromouse_angled2_view.PNG">
+  <img class="ui image" src="../images/micromouse_PCB_layout.PNG">
+  <img class="ui image" src="../images/micromouse_top_view.jpg">
+</div>
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+Micromouse is an competition where small autonomous robots (mice) attempt to solve a 16 x 16 maze. The maze is a 16 by 16 grid of cells which are divided by walls and posts. The mice must navigate through the maze and find the center. Using feedback from sensors and different searching algorithms, the mouse will need to remember its past movements and its position within the maze. After mapping its way to the center, the mouse will attempted to explore any additional paths back to the starting cell. As it traverses back toward the start, the mouse will determine the fastest path to the center. Once it reaches the starting cell, the mouse will move along the optimal path to the center. Time trials are held for all micromouse teams and the team with the fastest time to the center wins.
 
-To give you a flavor of the game, here is an excerpt from one run:
+For this project, I was the team lead and oversaw the entire design and software development of my team's mouse. Specifically, I used AutoDesk Inventor (a computer aided design program) to design custom motor brackets and wheels for the mouse. Additionally, I acquired all the necessary parts and modeled the entire mouse before building it to ensure proper clearances. After the mechanical design phase was complete, I designed the schematic and the layout of the mouse PCB (printed circuit board). I used soldering irons and a reflow station to populate and test all the surface mounted electrical components on the PCB.
 
-<hr>
+With all the mechanical and hardware aspects of the project complete, I joined my teammates in developing the software. I developed code for driving DC motors using a PID closed loop control system using feedback from encoders and IR emitter/detector pairs. We implemented a velocity PID controller to ensure that the motor was turning at the desired speed and overlayed that controller with another positional PID controller to correct our mouse's position within the maze cells. On the day of the competition, we placed first and finished in less than half the time of the runner-up team.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html) and see the results of the [competition](http://www-ee.eng.hawaii.edu/~tep/Projects/F17/minicomp2.html).
