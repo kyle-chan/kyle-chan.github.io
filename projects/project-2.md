@@ -8,9 +8,9 @@ permalink: projects/weatherbox
 date: 2017-05-01
 labels:
   - Embedded Systems
-  - Meteor
-  - MongoDB
-  - GitHub
+  - Data Aggregation
+  - PCB Design
+  - Renewable Energy
 summary: A low energy-self-sufficient sensor node for weather data aggregation.
 ---
 
