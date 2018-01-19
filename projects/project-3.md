@@ -2,16 +2,16 @@
 layout: project
 type: project
 image: images/micromouse_front_view.jpg
-title: Micromouse
-permalink: projects/micromouse
+title: Vision Processing
+permalink: projects/vision_processing
 # All dates must be YYYY-MM-DD format!
-date: 2017-12-09
+date: 2015-04-10
 labels:
-  - Embedded Systems
-  - C
-  - PCB Design
-  - Mechanical Design
-summary: My team built, designed, and programmed an autonomous robotic mouse that won first place in the 2017 UH Micromouse competition.
+  - Image Processing
+  - OpenCV
+  - Shape Detection
+  - Shape Identification
+summary: A wrote a vision processing program to detect and identify shapes for my high school senior project.
 ---
 
 <div class="ui small rounded images">
