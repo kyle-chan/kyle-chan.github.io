@@ -16,6 +16,7 @@ summary: My team built, designed, and programmed an autonomous robotic mouse tha
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/micromouse_angled_view.PNG">
+  <img class="ui image" src="../images/micromouse_angled2_view.PNG">
   <img class="ui image" src="../images/micromouse_PCB_layout.PNG">
   <img class="ui image" src="../images/micromouse_top_view.jpg">
 </div>
