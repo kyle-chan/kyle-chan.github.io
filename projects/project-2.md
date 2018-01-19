@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/scel_logo.png
+image: images/cotton-square.png
 title: Smart Campus Energy Lab: Weatherbox
 permalink: projects/weatherbox
 # All dates must be YYYY-MM-DD format!
