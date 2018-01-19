@@ -115,7 +115,7 @@
       "endDate": "Present",
       "summary": "Firmware development and PCB design intern",
       "highlights": [
-        "Developing firmware in C for polloing sensor data using STM32 microcontrollers",
+        "Developing firmware in C for polling sensor data using STM32 microcontrollers",
         "Created data filtering and temperature control algorithms in C for dsPIC microcontrollers",
         "Writing power logging and data conversion scripts in Python for testing sensors",
         "Designing schematics and baord layouts for hyperspectral imaging systems",
