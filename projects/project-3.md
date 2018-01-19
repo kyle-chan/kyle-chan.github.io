@@ -8,10 +8,11 @@ permalink: projects/vision_processing
 date: 2015-04-10
 labels:
   - Image Processing
+  - Machine Vision
   - OpenCV
   - Shape Detection
   - Shape Identification
-summary: A wrote a vision processing program to detect and identify shapes for my high school senior project.
+summary: I wrote a vision processing program to detect and identify shapes for my high school senior project.
 ---
 
 <div class="ui small rounded images">
@@ -21,10 +22,8 @@ summary: A wrote a vision processing program to detect and identify shapes for m
   <img class="ui image" src="../images/micromouse_top_view.jpg">
 </div>
 
-Micromouse is an competition where small autonomous robots (mice) attempt to solve a 16 x 16 maze. The maze is a 16 by 16 grid of cells which are divided by walls and posts. The mice must navigate through the maze and find the center. Using feedback from sensors and different searching algorithms, the mouse will need to remember its past movements and its position within the maze. After mapping its way to the center, the mouse will attempted to explore any additional paths back to the starting cell. As it traverses back toward the start, the mouse will determine the fastest path to the center. Once it reaches the starting cell, the mouse will move along the optimal path to the center. Time trials are held for all micromouse teams and the team with the fastest time to the center wins.
+Humans use their eyes and brains to gather and process information about the world around them. Computer vision is the science which strives to provide a similar capability to a machine or computer. It entails the usage of complex algorithms and filtering methods to extract and analyze useful information from a single image or a sequence of images. Such useful information include characteristics of the image/video such as classification, feature extraction, and pattern recognition. There are many uses for this technology which include, but are not limited to, agriculture, augmented reality, autonomous vehicles, and biometrics.
 
-For this project, I was the team lead and oversaw the entire design and software development of my team's mouse. Specifically, I used AutoDesk Inventor (a computer aided design program) to design custom motor brackets and wheels for the mouse. Additionally, I acquired all the necessary parts and modeled the entire mouse before building it to ensure proper clearances. After the mechanical design phase was complete, I designed the schematic and the layout of the mouse PCB (printed circuit board). I used soldering irons and a reflow station to populate and test all the surface mounted electrical components on the PCB.
+For my high school senior project, I focused on detecting and identifying various shapes from different images. I developed my object detecton program to use various filters, thresholding, and contour counting to identify simple polygons. The input images were taken in different backgrounds and lighting scenarios to truly test the capabilities of my program. From the input image, the object detection program would split the image into RGB values and intensify the blue objects. From there, a thresholding operation was performed to completely filter out any objects with lesser blue values than the given threshold. This resulted in a binary image (black and white). After that, the binary image was scanned through for contours (verticies) and shapes were approximated from the curves and lines. The contours were then used to determine the appropriate shape based on their properties.
 
-With all the mechanical and hardware aspects of the project complete, I joined my teammates in developing the software. I developed code for driving DC motors using a PID closed loop control system using feedback from encoders and IR emitter/detector pairs. We implemented a velocity PID controller to ensure that the motor was turning at the desired speed and overlayed that controller with another positional PID controller to correct our mouse's position within the maze cells. On the day of the competition, we placed first and finished in less than half the time of the runner-up team.
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html) and see the results of the [competition](http://www-ee.eng.hawaii.edu/~tep/Projects/F17/minicomp2.html).
+More information about image processing and the different functions for filtering and thresholding can be found in the [OpenCV documentation page](https://docs.opencv.org/2.4/modules/refman.html).
