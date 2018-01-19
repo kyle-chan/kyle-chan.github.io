@@ -10,7 +10,7 @@ labels:
   - Embedded Systems
   - C
   - PCB Design
-  - AutoDesk Inventor
+  - Mechanical Design
 summary: My team built, designed, and programmed an autonomous robotic mouse that won first place in the 2017 UH Micromouse competition.
 ---
 
