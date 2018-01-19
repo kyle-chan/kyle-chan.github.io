@@ -7,11 +7,11 @@ permalink: projects/weatherbox
 # All dates must be YYYY-MM-DD format!
 date: 2017-05-01
 labels:
-  - Javascript
+  - Embedded Systems
   - Meteor
   - MongoDB
   - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+summary: A low energy-self-sufficient sensor node for weather data aggregation.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/weatherbox_PCB.jpg">
