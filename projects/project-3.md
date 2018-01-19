@@ -1,11 +1,11 @@
 ---
 layout: project
 type: project
-image: images/micromouse_front_view.jpg
+image: images/opencv_process.png
 title: Vision Processing
 permalink: projects/vision_processing
 # All dates must be YYYY-MM-DD format!
-date: 2015-04-10
+date: 2015-01-25
 labels:
   - Image Processing
   - Machine Vision
@@ -16,10 +16,10 @@ summary: I wrote a vision processing program to detect and identify shapes for m
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse_angled_view.PNG">
-  <img class="ui image" src="../images/micromouse_angled2_view.PNG">
-  <img class="ui image" src="../images/micromouse_PCB_layout.PNG">
-  <img class="ui image" src="../images/micromouse_top_view.jpg">
+  <img class="ui image" src="../images/opencv_raw.png">
+  <img class="ui image" src="../images/opencv_blue.png">
+  <img class="ui image" src="../images/opencv_thresh.png">
+  <img class="ui image" src="../images/opencv_process.png">
 </div>
 
 Humans use their eyes and brains to gather and process information about the world around them. Computer vision is the science which strives to provide a similar capability to a machine or computer. It entails the usage of complex algorithms and filtering methods to extract and analyze useful information from a single image or a sequence of images. Such useful information include characteristics of the image/video such as classification, feature extraction, and pattern recognition. There are many uses for this technology which include, but are not limited to, agriculture, augmented reality, autonomous vehicles, and biometrics.
