@@ -134,33 +134,51 @@
       "summary": "Oversaw and participated in the mechanical assembly and software development of an autonomous robot",
       "highlights": [
         "Used AutoDesk Inventor to model assembly for bracket design",
-        "Designed 2 layer PCB with surface mounted components",
+        "Designed two-layer PCB with various QFN and surface mounted components",
         "Developed firmware in C for a STM32 microprocessor to drive DC motors with a closed-loop control system"
       ]
     },
     {
-      "organization": "Smart Campus Energy Lab",
+      "organization": "Smart Campus Energy Lab: Weatherbox Challenge",
       "website": "http://scel-hawaii.org/",
-      "position": "Software Developer",
-      "startDate": "2017-01-01",
+      "position": "Team Lead",
+      "startDate": "2016-01-01",
       "endDate": "2017-05-01",
-      "summary": "",
+      "summary": "Led team of three people to develop a low energy-self-sufficient sensor node for data collection",
       "highlights": [
-        "Designed and developed low-cost, accurate, and reliable environmental sensor modules",
-        "Developed firmware in Arduino for an ATmega328 microcontroller to retrieve sensor data"
+        "Developed firmware for ATMEGA chip to consolidate data from various sensors and transmit via Xbee transceivers",
+        "Designed two-layer PCB with surface mount components"
       ]
     },
+    {
+      "organization": "Smart Campus Energy Lab: Smart Outlet",
+      "website": "http://scel-hawaii.org/",
+      "position": "Team Lead",
+      "startDate": "2015-08-01",
+      "endDate": "2016-05-01",
+      "summary": "Led team of three people to develop a wireless energy-efficient outlet",
+      "highlights": [
+        "Developed firmware for wireless transmission and reception of commands through Xbee transceivers",
+        "Designed two-layer PCB with surface mount components"
+      ]
+    }
   ],
   "awards": [
     {
       "title": "UH Manoa Chancellor's Scholarship",
       "date": "2015-Present",
       "awarder": "University of Hawaii at Manoa",
-      "summary": "Scholarships awarded to incoming freshmen who complete a rigorous high school curriculum."
+      "summary": "Scholarship awarded to outstanding incoming freshmen who complete a rigorous high school curriculum."
     },
     {
-      "title": "First place",
-      "date": "2017",
+      "title": "Micromouse Champion",
+      "date": "December 2017",
+      "awarder": "University of Hawaii Micromouse Competition",
+      "summary": "My team won first place in 2017.  See my portfolio site for more details."
+    },
+    {
+      "title": "Micromouse Champion",
+      "date": "December 2017",
       "awarder": "University of Hawaii Micromouse Competition",
       "summary": "My team won first place in 2017.  See my portfolio site for more details."
     }
