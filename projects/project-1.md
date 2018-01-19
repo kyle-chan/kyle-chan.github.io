@@ -21,25 +21,8 @@ summary: My team built, designed, and programmed an autonomous robotic mouse tha
   <img class="ui image" src="../images/micromouse_top_view.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Micromouse is an competition where small autonomous robots (mice) attempt to solve a 16 x 16 maze. The maze is a 16 by 16 grid of cells which are divided by walls and posts. The mice must navigate through the maze and find the center. Using feedback from sensors and different searching algorithms, the mouse will need to remember its past movements and its position within the maze. After mapping its way to the center, the mouse will attempted to explore any additional paths back to the starting cell. As it traverses back toward the start, the mouse will determine the fastest path to the center. Once it reaches the starting cell, the mouse will move along the optimal path to the center. Time trials are held for all micromouse teams and the team with the fastest time to the center wins.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+For this project, I was the team lead and oversaw the entire design and software development of my team's mouse. Specifically, I used AutoDesk Inventor (a computer aided design program) to design custom motor brackets and wheels for the mouse. Additionally, I acquired all the necessary parts and modeled the entire mouse before building it to ensure proper clearances. After the mechanical design phase was complete, I designed the schematic and the layout of the mouse PCB (printed circuit board). I used soldering irons and a reflow station to populate and test all the surface mounted electrical components on the PCB. With all the mechanical and hardware aspects of the project complete, I joined my teammates in developing the software. I developed code for driving DC motors using a PID closed loop control system using feedback from encoders and IR emitter/detector pairs. We implemented a velocity PID controller to ensure that the motor was turning at the desired speed and overlayed that controller with another positional PID controller to correct our mouse's position within the maze cells. On the day of the competition, we placed first and finished in less than half the time of the runner-up team.
 
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
-
-
-
+You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html) and see the results of the [competition](http://www-ee.eng.hawaii.edu/~tep/Projects/F17/minicomp2.html).
