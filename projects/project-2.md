@@ -22,6 +22,4 @@ By collecting and transmitting data continuously, other teams in SCEL can use th
 
 In this project I led a team of three people to develop the weatherbox. I used EAGLE to design the schematic and the board layout and also populated the circuit board with electronic components. I also worked with my teammates to develop the firmware for communicating with the various sensors using different communication protocols (UART, SPI, I2C).
 
-You can learn more about the Smart Campus Energy Lab at the website.
-
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+You can learn more about the Smart Campus Energy Lab at the [website](http://scel-hawaii.org/) and at the [wiki page](https://wiki.scel-hawaii.org/doku.php?id=start).
