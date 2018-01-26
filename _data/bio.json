@@ -118,7 +118,7 @@
         "Developing firmware in C for polling sensor data using STM32 microcontrollers",
         "Created data filtering and temperature control algorithms in C for dsPIC microcontrollers",
         "Writing power logging and data conversion scripts in Python for testing sensors",
-        "Designing schematics and baord layouts for hyperspectral imaging systems",
+        "Designing schematics and board layouts for hyperspectral imaging systems",
         "Populating PCBs using soldering irons and reflow station",
         "Fabricating cables for subsystem interconnects and testing equipment"
       ]
