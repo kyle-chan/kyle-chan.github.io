@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Why work harder?
+title: Why Work Harder?
 # All dates must be YYYY-MM-DD format!
 date: 2018-02-22
 labels:
