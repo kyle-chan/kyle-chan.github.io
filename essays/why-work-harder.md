@@ -11,7 +11,7 @@ labels:
   - Semantic UI
 ---
 
-<img class="ui small right square floated image" src="../images/eslint.png">
+<img class="ui small right square floated image" src="../images/semantic_ui_logo.png">
 
 Work smarter, not harder. Frameworks, namely Semantic UI, are perfect examples of working smarter. Although there may be a learning curve associated with learning these frameworks, its versatility and utility far outweigh the time invested in learning it. One of the most important features of Semantic UI is that it simplifies any user-interface elements in a webpage due to the framework’s support for features such as drop-down menus. With Semantic UI’s numerous classes and CSS styles, developers are provided with an endless array of customization for their page elements. Using these frameworks effectively can lead to visually pleasing and overall, higher quality code.
 
