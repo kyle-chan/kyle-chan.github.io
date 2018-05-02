@@ -10,7 +10,7 @@ labels:
   - Design Patterns
 ---
 
-<img class="ui medium left square floated image" src="../images/design-patterns.jpg">
+<img class="ui medium left square floated image" src="../images/design-patterns.png">
 
 Practice makes perfect for tackling a new concept, but this repetition can become increasingly inefficient over time as one’s experience grows. At some point, solving a problem that you are extremely familiar with becomes muscle memory. Despite being trivial, solving the presented problem still takes time. What if there was a way to streamline this process by reusing a previous known solution instead of starting from scratch every time? Well, there is: enter design patterns.
 
