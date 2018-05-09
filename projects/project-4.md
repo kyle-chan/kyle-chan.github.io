@@ -5,7 +5,7 @@ image: images/halemanoa-logo.png
 title: Hale Manoa
 permalink: projects/halemanoa
 # All dates must be YYYY-MM-DD format!
-date: 2018-5-09
+date: 2018-05-09
 labels:
   - Meteor
   - React
