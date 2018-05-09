@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse_front_view.jpg
+image: images/halemanoa-logo.png
 title: Hale Manoa
 permalink: projects/halemanoa
 # All dates must be YYYY-MM-DD format!
