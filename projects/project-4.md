@@ -19,10 +19,13 @@ Hale Manoa was designed with the intention of helping UH Manoa students find com
 
 Below are some screenshots of the Hale Manoa application:
 
-Connect Page which displays all registered users
+The Connect page displays all registered users:
+
 <img class="ui fluid image" src="../images/halemanoa-connect.png">
 
-Housing Page which displays all available listings
+
+The Housing page displays all available listings:
+
 <img class="ui fluid image" src="../images/halemanoa-housing.png">
 
 ### Contributions to Project
