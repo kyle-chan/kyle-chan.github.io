@@ -23,7 +23,6 @@ The Connect page displays all registered users:
 
 <img class="ui fluid image" src="../images/halemanoa-connect.png">
 
-
 The Housing page displays all available listings:
 
 <img class="ui fluid image" src="../images/halemanoa-housing.png">
