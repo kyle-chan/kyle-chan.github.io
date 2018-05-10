@@ -17,6 +17,14 @@ summary: My team developed a web application for UH Manoa students to connect wi
 ### Project Overview
 Hale Manoa was designed with the intention of helping UH Manoa students find compatible roommates and suitable off campus housing options. Through this web application, users will be able to search among the site's database of registered users for others who share similar interests and are also looking for housing. They will also be able to view the various available listings posted by other users. With Hale  Manoa, students will have a centralized platform for finding a suitable housing option and meeting potential roommates.
 
+Below are some screenshots of the Hale Manoa application:
+
+Connect Page which displays all registered users
+<img class="ui fluid image" src="../images/halemanoa-connect.png">
+
+Housing Page which displays all available listings
+<img class="ui fluid image" src="../images/halemanoa-housing.png">
+
 ### Contributions to Project
 I was responsible for the connect page which displayed all the users in cards, the user profile page, and implementing the filtering interface for the connect and housing pages. I was also in charge of the conditional renders on the housing and profile pages. Certain functionality such as adding a house listing were restricted to specfic user types.
 
