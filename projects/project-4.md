@@ -23,5 +23,6 @@ I was responsible for the connect page which displayed all the users in cards, t
 ### Learning Outcomes
 Working on this project helped to expand my knowledge of the React framework, HTML and CSS programmming practices for styling, and with Meteor. Because this project was team-based, I was able to learn about the issue, milestone, and project features within Github for task designation and organization. Through this project, I feel that my software development and project management skills have been further refined.
 
-You can learn more at the [Hale Manoa Project Page](https://hale-manoa.github.io/). 
+You can learn more at the [Hale Manoa Project Page](https://hale-manoa.github.io/)
+
 Source code available at: <a href="https://github.com/hale-manoa/hale-manoa">https://github.com/hale-manoa/hale-manoa</a>
